@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Resume"
-permalink: /about/
+permalink: /resume/
 ---
 
 # Education
