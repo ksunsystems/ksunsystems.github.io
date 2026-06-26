@@ -14,11 +14,9 @@ markdown: kramdown
 plugins:
   - jekyll-include-cache
 
-include:
-  - _pages
-
 defaults:
   - scope:
       path: ""
+      type: pages
     values:
       layout: single
