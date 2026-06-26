@@ -1,0 +1,15 @@
+remote_theme: "mmistakes/minimal-mistakes"
+
+minimal_mistakes_skin: "default"
+
+title: "Kevin Sun"
+name: "Kevin Sun"
+description: "Mechatronics Engineer | Robotics | Embedded Systems"
+
+url: "https://kevinsun.engineer"
+baseurl: ""
+
+markdown: kramdown
+
+plugins:
+  - jekyll-include-cache
