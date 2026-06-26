@@ -1,86 +1,107 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Kevin Sun | Mechatronics Engineer</title>
+    <title>Kevin ❤️ Natasha</title>
     <meta charset="UTF-8">
+
     <style>
         body {
-            font-family: Arial, sans-serif;
-            max-width: 900px;
-            margin: 50px auto;
-            padding: 20px;
-            line-height: 1.6;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #ffd6e8, #ffeef7);
+            font-family: "Arial", sans-serif;
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
+            background: rgba(255,255,255,0.8);
+            padding: 50px;
+            border-radius: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            max-width: 600px;
         }
 
         h1 {
-            font-size: 48px;
+            font-size: 55px;
+            color: #e91e63;
+            margin-bottom: 10px;
         }
 
         h2 {
-            margin-top: 40px;
+            font-size: 32px;
+            color: #ff4081;
         }
 
-        .project {
-            margin-bottom: 20px;
+        p {
+            font-size: 22px;
+            color: #555;
+            line-height: 1.6;
         }
 
-        a {
-            color: #0066cc;
+        .heart {
+            font-size: 60px;
+            animation: heartbeat 1.2s infinite;
+        }
+
+        .floating-heart {
+            position: absolute;
+            color: #ff4081;
+            font-size: 30px;
+            animation: float 6s infinite;
+        }
+
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+
+        @keyframes float {
+            from {
+                transform: translateY(100vh);
+                opacity: 1;
+            }
+            to {
+                transform: translateY(-10vh);
+                opacity: 0;
+            }
         }
     </style>
 </head>
 
 <body>
 
-<h1>Kevin Sun</h1>
+<div class="container">
 
-<h2>Mechatronics Engineer</h2>
+    <div class="heart">❤️</div>
 
-<p>
-I design and build systems combining mechanical engineering,
-electronics, embedded systems, and software.
-</p>
+    <h1>Kevin loves Natasha</h1>
 
-<h2>About Me</h2>
+    <h2>very much ❤️</h2>
 
-<p>
-I am interested in robotics, automation, embedded systems,
-and intelligent machines.
-</p>
+    <p>
+        Every day with you is special.<br>
+        Thank you for bringing happiness, laughter,
+        and love into my life.
+    </p>
 
-<h2>Projects</h2>
+    <p>
+        Forever yours,<br>
+        <strong>Kevin</strong> ❤️
+    </p>
 
-<div class="project">
-<h3>Project 1</h3>
-<p>
-Description of your engineering project goes here.
-</p>
 </div>
 
-<div class="project">
-<h3>Project 2</h3>
-<p>
-Description of another project goes here.
-</p>
-</div>
-
-<h2>Skills</h2>
-
-<ul>
-<li>CAD Design</li>
-<li>Embedded Systems</li>
-<li>Python / C++</li>
-<li>Robotics</li>
-<li>Control Systems</li>
-</ul>
-
-<h2>Contact</h2>
-
-<p>
-<a href="https://github.com/ksunsystems">
-GitHub
-</a>
-</p>
+<!-- Floating hearts -->
+<div class="floating-heart" style="left:10%; animation-delay:0s;">❤️</div>
+<div class="floating-heart" style="left:25%; animation-delay:2s;">💕</div>
+<div class="floating-heart" style="left:50%; animation-delay:4s;">❤️</div>
+<div class="floating-heart" style="left:75%; animation-delay:1s;">💗</div>
+<div class="floating-heart" style="left:90%; animation-delay:3s;">❤️</div>
 
 </body>
 </html>
